@@ -1,15 +1,9 @@
 a = int(input('-->'))
 b = int(input('-->'))
 c = int(input('-->'))
-if a > b and a > c and b > c and b < c:
+if a > b and a > c:
     print(a)
-elif a < b:
+elif b < a and b > c:
     print(b)
-elif a > c:
-    print(a)
-elif a < c:
-    print(c)
-elif b > c:
-    print(b)
-elif b < c:
+elif c > a and c > b:
     print(c)
