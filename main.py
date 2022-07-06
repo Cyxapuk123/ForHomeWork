@@ -1,7 +1,7 @@
 a = int(input('-->'))
 b = int(input('-->'))
 c = int(input('-->'))
-if a > b:
+if a > b and a > c and b > c and b < c:
     print(a)
 elif a < b:
     print(b)
